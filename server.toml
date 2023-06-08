@@ -1,15 +1,64 @@
-name = "iptfreedom"
+name = "IPTFreedom"
 mc_version = "1.19.4"
 
 [jar]
 type = "url"
-url = "https://ci.plex.us.org/job/Scissors/job/1.19.4/46/artifact/build/libs/scissors-46.jar"
+url = "https://ci.plex.us.org/job/Scissors/job/1.19.4/49/artifact/build/libs/scissors-1.19.4-49.jar"
 
 [variables]
+SERVER_ADDRESS = "ipt.esixtwo.one"
 PORT = "25565"
+TELNET_PORT = "25765"
+
+OWNERS = "maniaplay"
+EXECUTIVES = "G6_"
+ASSISTANT_EXECUTIVES = ""
+
+DISCORD_INVITE = "https://discord.com/invite/iptfreedom"
+DISCORD_TOKEN = ""
+DISCORD_PREFIX = "ipt!"
+DISCORD_SERVER_ID = ""
+DISCORD_CHANNEL_ID_CHAT = ""
+DISCORD_CHANNEL_ID_ADMIN = ""
+DISCORD_ROLE_ID_MASTER_BUILDER = ""
+DISCORD_ROLE_ID_ADMIN = ""
+DISCORD_ROLE_ID_SENIOR_ADMIN = ""
+DISCORD_ROLE_ID_DEVELOPER = ""
+DISCORD_ROLE_ID_ASSISTANT_EXECUTIVE = ""
+DISCORD_ROLE_ID_EXECUTIVE = ""
+DISCORD_ROLE_ID_SERVER_OWNER = ""
 
 [launcher]
 aikars_flags = true
 proxy_flags = false
 eula_args = true
 nogui = true
+
+[[plugins]]
+type = "url"
+url = "https://github.com/IPTFreedom/TotalFreedomMod/releases/download/2022.06.03-IPT/TotalFreedomMod-2022.06.3-IPT.jar"
+
+[[plugins]]
+type = "url"
+url = "https://github.com/IPTFreedom/Minecraft-JDA/releases/download/5.0.0-beta.10-1/Minecraft-JDA-5.0.0-beta.10-1.jar"
+
+[[plugins]]
+type = "url"
+url = "https://ci.enginehub.org/repository/download/bt11/22021:id/worldguard-bukkit-7.0.9-SNAPSHOT-dist.jar?branch=version/7.0.x&guest=1"
+
+[[plugins]]
+type = "url"
+url = "https://ci.plex.us.org/job/FastAsynchronousIncompetence/27/artifact/worldedit-bukkit/build/libs/FastAsyncWorldEdit-Bukkit-2.6.2-SNAPSHOT-27.jar"
+
+[[plugins]]
+type = "modrinth"
+id = "buildersutilities"
+version = "usc9dcSx"
+
+[[plugins]]
+type = "url"
+url = "https://github.com/IPTFreedom/BukkitTelnet/releases/download/4.9-IPT/BukkitTelnet.jar"
+
+[[plugins]]
+type = "url"
+url = "https://github.com/IPTFreedom/Addendum/releases/download/1.0.0/Addendum-1.0.0.jar"

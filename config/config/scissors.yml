@@ -1,0 +1,6 @@
+runCommandsInBooks: false
+commandSignsBypassPermissions: false
+componentDepthLimit: 128
+chatSignaturesEnabled: false
+excludePlayersFromNbtComponents: false
+config-version: 5
