@@ -1,0 +1,4 @@
+min-range: 0.0
+max-range: 50000.0
+find-attempts: 3
+excluded-biomes: []

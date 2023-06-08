@@ -62,3 +62,19 @@ url = "https://github.com/IPTFreedom/BukkitTelnet/releases/download/4.9-IPT/Bukk
 [[plugins]]
 type = "url"
 url = "https://github.com/IPTFreedom/Addendum/releases/download/1.0.0/Addendum-1.0.0.jar"
+
+[[plugins]]
+type = "spigot"
+id = "carz.56255"
+
+[[plugins]]
+type = "url"
+url = "https://github.com/IPTFreedom/ESP/releases/download/1.1/ESP-1.1.jar"
+
+[[plugins]]
+type = "url"
+url = "https://github.com/IPTFreedom/TF-EssentialsX/releases/download/2.20.1/EssentialsX-2.20.1-dev+395-92d7f94.jar"
+
+[[plugins]]
+type = "url"
+url = "https://github.com/IPTFreedom/TF-EssentialsX/releases/download/2.20.1/EssentialsXSpawn-2.20.1-dev+395-92d7f94.jar"

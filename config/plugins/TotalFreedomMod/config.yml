@@ -165,7 +165,7 @@ coreprotect:
   host: db
   port: '3306'
   username: root
-  password: 2EN25VPtpCKxRowtpw5oyPkR4Av3Qedk # TODO
+  password: 2EN25VPtpCKxRowtpw5oyPkR4Av3Qedk
   database: freedom
 
 # ForceIP configuration
