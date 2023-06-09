@@ -162,11 +162,11 @@ adminlist:
 # CoreProtect
 coreprotect:
   enabled: true
-  host: db
-  port: '3306'
-  username: root
-  password: 2EN25VPtpCKxRowtpw5oyPkR4Av3Qedk
-  database: freedom
+  host: '${DATABASE_HOST}'
+  port: '${DATABASE_PORT}'
+  username: '${DATABASE_USER}'
+  password: '${DATABASE_PASS}'
+  database: '${DATABASE_NAME}'
 
 # ForceIP configuration
 forceip:

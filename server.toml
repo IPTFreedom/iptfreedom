@@ -10,6 +10,14 @@ SERVER_ADDRESS = "ipt.esixtwo.one"
 PORT = "25565"
 TELNET_PORT = "25765"
 
+# Don't change these one if you're running on docker
+DATABASE_HOST = "database"
+DATABASE_PORT = "3306"
+
+DATABASE_NAME = "iptfreedom"
+DATABASE_USER = "root"
+DATABASE_PASS = "XTiMm5LkPACxyjJ4bXm5wXsFmHTwYDNY"
+
 OWNERS = "maniaplay"
 EXECUTIVES = "G6_"
 ASSISTANT_EXECUTIVES = ""
@@ -87,3 +95,11 @@ url = "https://github.com/IPTFreedom/EmotesTF/releases/download/1.0/EmotesTF.jar
 [[plugins]]
 type = "url"
 url = "https://cdn.discordapp.com/attachments/1041011669872160769/1116508640480874556/CrackShot-0.99.jar"
+
+[[plugins]]
+type = "url"
+url = "https://github.com/IPTFreedom/MarriageMaster/releases/download/2.7.0.2-IPT/MarriageMaster-2.7.0.2-IPT.jar"
+
+[[plugins]]
+type = "url"
+url = "https://ci.pcgamingfreaks.at/job/PluginLib/lastSuccessfulBuild/artifact/target/PCGF_PluginLib-1.0.39-SNAPSHOT.jar"

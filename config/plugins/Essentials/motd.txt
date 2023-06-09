@@ -1,0 +1,6 @@
+&6Welcome, {PLAYER}&6!
+&2We recommend using our Plotworld ensure your build is safe from others. To access it, run /plotworld
+&6Type &c/help&6 for a list of commands.
+&6Type &c/list&6 to see who else is online.
+&6Players online:&c {ONLINE} &6- World time:&c {WORLDTIME12}
+&aYou are playing on ${SERVER_NAME}

@@ -150,9 +150,9 @@ blacklist:
             enable: true
         database:
             enable: false
-            dsn: jdbc:mysql://localhost:3306/minecraft
-            user: root
-            pass: ''
+            dsn: 'jdbc:mysql://${DATABASE_HOST}:${DATABASE_PORT}/${DATABASE_NAME}'
+            user: '${DATABASE_USER}'
+            pass: '${DATABASE_PASS}'
             table: blacklist_events
         file:
             enable: false
