@@ -1,0 +1,17 @@
+{
+    "name": "f",
+    "command": "f",
+    "description": "Pay your respects.",
+    "usage": "/f",
+    "author": "Mafrans",
+
+    "lines": {
+        "USER": [
+            "&c%user%&b just payed their respects! Type &cF&b to pay your respects!"
+        ]
+    },
+
+    "variables": {
+        "USER": "user"
+    }
+}

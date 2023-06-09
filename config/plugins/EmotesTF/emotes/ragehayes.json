@@ -1,0 +1,21 @@
+{
+    "name": "Rageheyes",
+    "command": "rageheyes",
+    "description": "Hm...",
+    "usage": "/rageheyes [player]",
+    "author": "Mafrans",
+
+    "lines": {
+        "USER": [
+            "&c%user%&b is an accomplice of &cRageHeyes&b, the one who cheated on &cSMP&b!"
+        ],
+        "USER,ARGUMENT_0": [
+            "&c%user%&b just accused &c%target%&b of being &cRageHayes's accomplice!&b (RageHayes cheats on SMP) Everyone call them out!"
+        ]
+    },
+
+    "variables": {
+        "USER": "user",
+        "ARGUMENT_0": "target"
+    }
+}

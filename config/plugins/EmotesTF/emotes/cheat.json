@@ -1,0 +1,21 @@
+{
+    "name": "Cheat",
+    "command": "cheat",
+    "description": "Cheat on a block game",
+    "usage": "/cheat [player]",
+    "author": "Mafrans",
+
+    "lines": {
+        "USER": [
+            "&c%user%&b just cheated on a block game!"
+        ],
+        "USER,ARGUMENT_0": [
+            "&c%user%&b just accused &c%target%&b of cheating! Everyone call them out!"
+        ]
+    },
+
+    "variables": {
+        "USER": "user",
+        "ARGUMENT_0": "target"
+    }
+}

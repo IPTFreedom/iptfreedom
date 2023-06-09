@@ -1,0 +1,21 @@
+{
+    "name": "Scream",
+    "command": "scream",
+    "description": "Blatantly scream towards yourself or someone else",
+    "usage": "/scream [player]",
+    "author": "Mafrans",
+
+    "lines": {
+        "USER": [
+            "&c%user%&b is &cscreaming!"
+        ],
+        "USER,ARGUMENT_0": [
+            "&c%user%&b is screaming at &c%target%&b!"
+        ]
+    },
+
+    "variables": {
+        "USER": "user",
+        "ARGUMENT_0": "target"
+    }
+}

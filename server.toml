@@ -78,3 +78,12 @@ url = "https://github.com/IPTFreedom/TF-EssentialsX/releases/download/2.20.1/Ess
 [[plugins]]
 type = "url"
 url = "https://github.com/IPTFreedom/TF-EssentialsX/releases/download/2.20.1/EssentialsXSpawn-2.20.1-dev+395-92d7f94.jar"
+
+[[plugins]]
+type = "url"
+url = "https://github.com/IPTFreedom/EmotesTF/releases/download/1.0/EmotesTF.jar"
+
+# TODO: Decompile this one and clean up the code & make a release
+[[plugins]]
+type = "url"
+url = "https://cdn.discordapp.com/attachments/1041011669872160769/1116508640480874556/CrackShot-0.99.jar"
