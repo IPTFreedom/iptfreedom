@@ -15,12 +15,10 @@ services:
     image: server
     build:
       context: .
-      dockerfile: ./Dockerfile
+      dockerfile: ./docker/server.Dockerfile
     restart: unless-stopped
     tty: true
     stdin_open: true
-    cap_drop:
-      - ALL
     init: true
     depends_on:
       - database

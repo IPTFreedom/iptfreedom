@@ -13,10 +13,10 @@ TELNET_PORT = "25765"
 # Don't change these if you're running on docker
 DATABASE_HOST = "database"
 DATABASE_PORT = "3306"
-
-DATABASE_NAME = "iptfreedom"
 DATABASE_USER = "root"
+
 DATABASE_PASS = "XTiMm5LkPACxyjJ4bXm5wXsFmHTwYDNY"
+DATABASE_NAME = "iptfreedom"
 
 OWNERS = "maniaplay"
 EXECUTIVES = "G6_"
