@@ -10,7 +10,7 @@ SERVER_ADDRESS = "ipt.esixtwo.one"
 PORT = "25565"
 TELNET_PORT = "25765"
 
-# Don't change these one if you're running on docker
+# Don't change these if you're running on docker
 DATABASE_HOST = "database"
 DATABASE_PORT = "3306"
 
@@ -103,3 +103,7 @@ url = "https://github.com/IPTFreedom/MarriageMaster/releases/download/2.7.0.2-IP
 [[plugins]]
 type = "url"
 url = "https://ci.pcgamingfreaks.at/job/PluginLib/lastSuccessfulBuild/artifact/target/PCGF_PluginLib-1.0.39-SNAPSHOT.jar"
+
+[[plugins]]
+type = "url"
+url = "https://github.com/Focusvity/ItemizerX/releases/download/1.8/ItemizerX.jar"

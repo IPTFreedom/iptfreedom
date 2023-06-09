@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  database:
+    image: yobasystems/alpine-mariadb
+    command: --tcp-keepalive-interval 10
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: iptfreedom
+      MYSQL_ROOT_PASSWORD: XTiMm5LkPACxyjJ4bXm5wXsFmHTwYDNY
+    volumes:
+      - /var/lib/mysql
+  
+  server:
+    image: server
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+    cap_drop:
+      - ALL
+    init: true
+    depends_on:
+      - database
+    ports:
+      - 25565:25565
+      - 25565:25565/udp
+      - 25765:25765
