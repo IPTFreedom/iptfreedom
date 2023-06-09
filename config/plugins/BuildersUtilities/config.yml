@@ -1,5 +1,5 @@
 settings:
-  disable-physics: true
+  disable-physics: false
 
   disable-entity-explode: false
   disable-block-explode: false
