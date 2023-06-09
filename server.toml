@@ -3,7 +3,7 @@ mc_version = "1.19.4"
 
 [jar]
 type = "url"
-url = "https://ci.plex.us.org/job/Scissors/job/1.19.4/49/artifact/build/libs/scissors-1.19.4-49.jar"
+url = "https://ci.plex.us.org/job/Scissors/job/1.19.4/50/artifact/build/libs/scissors-1.19.4-50.jar"
 
 [variables]
 SERVER_ADDRESS = "ipt.esixtwo.one"
@@ -107,3 +107,16 @@ url = "https://ci.pcgamingfreaks.at/job/PluginLib/lastSuccessfulBuild/artifact/t
 [[plugins]]
 type = "url"
 url = "https://github.com/Focusvity/ItemizerX/releases/download/1.8/ItemizerX.jar"
+
+[[plugins]]
+type = "modrinth"
+id = "coreprotect"
+version = "mvLpRWww"
+
+[[plugins]]
+type = "url"
+url = "https://github.com/ViaVersion/ViaVersion/releases/download/4.7.0/ViaVersion-4.7.0.jar"
+
+[[plugins]]
+type = "url"
+url = "https://github.com/ViaVersion/ViaBackwards/releases/download/4.7.0/ViaBackwards-4.7.0.jar"
