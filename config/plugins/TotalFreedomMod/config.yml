@@ -253,30 +253,22 @@ blocked_commands:
   #
   global:
     # CoreProtect Blocked and shows as an unknown command...
-    - 'a:u:/co:_'
-    - 'n:u:/co purge:_'
-    - 'a:u:/coreprotect:_'
-    - 'n:u:/coreprotect purge:_'
-    - 'a:u:/core:_'
-    - 'n:u:/core purge:_'
+    - 'a:b:/co:_'
+    - 'n:b:/co purge:_'
 
     # Disabled commands
     - 'n:b:/essentials:_'
-    - 'n:b:/near:This command was blocked because it was being abused to bypass /tptoggle. This is why we cant have nice things.'
+    - 'n:b:/near:_'
     - 'n:b:/time:Server-side time changing is disabled. Please use /ptime to set your own personal time.'
     - 'n:b:/disguiseradius:_'
     - 'n:b:/undisguiseradius:_'
     - 'n:b:/debug:_'
-    - 'n:b:/plugincontrol:_'
     - 'n:b:/stop:_'
-    - 'n:b:/tfm reload:_'
     - 'n:b:/restart:_'
     - 'n:b:/pardon:_'
     - 'n:b:/ban-ip:_'
     - 'n:b:/pardon-ip:_'
-    - 'n:b:/toggledownfall:_'
     - 'n:b:/spreadplayers:_'
-    - 'n:b:/clearhistory:_'
     - 'n:b:/save-on:_'
     - 'n:b:/save-off:_'
     - 'n:b:/packet:_'
@@ -296,18 +288,15 @@ blocked_commands:
     - 'n:b:/locate:_'
     - 'n:b:/vvbukkit:_'
     - 'n:b:/plot area c:_'
-    - 'n:b:/d minecart_command:_'
     - 'n:b:/loot:_'
     - 'n:b:/plan:_'
-    - 'n:b://material:_'
     - 'n:b://mat:_'
     - 'n:b:/mat:_'
-    - 'n:b:/pcapi:_'
-    - 'n:b://distr:&cNope.'
+    - 'n:b://distr:_'
     - 'n:b:/data:_'
     - 'n:b:/datapack:_'
     - 'n:b://regen:_'
-    - 'n:b://brush:&cFuck you.'
+    - 'n:b://brush:_'
     - 'n:b:/execute:_'
     - 'n:b:/killall:_'
     - 'n:b:/createdisguise:_'
@@ -317,88 +306,58 @@ blocked_commands:
     - 'n:b:/packet_filter:_'
     - 'n:b:/packetlog:_'
     - 'n:b:/protocol:_'
-    - 'n:b://awe:_'
-    - 'n:b://pos1:_'
-    - 'n:b://pos2:_'
     - 'n:b:/libsdisguises:_'
+    - 'n:b:/setidletimeout:_'
+    - 'n:b:/delchunks:_'
+    - 'n:b:/worldguard:_'
+    - 'n:b:/tpall:_'
+    - 'n:b:/wra:_'
+    - 'n:b:/viaver:_'
+    - 'n:b:/viaversion:_'
+    - 'n:b:/spark:_'
+    - 'n:b://g:_'
 
     # Admin commands
-    - 'a:b:/vive:_'
-    - 'a:b:/vse:_'
     - 'a:b:/lightning:_'
     - 'a:b:/playsound:_'
-    - 'a:b:/locatebiome:_'
-    - 'a:b:/delchunks:_'
     - 'a:b:/createkit:_'
     - 'a:b:/delkit:_'
     - 'a:b:/region:_'
     - 'a:b:/clone:_'
-    - 'a:b:/cap:_'
     - 'a:b:/gamemode:Use /gmc and /gms to set your gamemode.'
-    - 'a:b:/powernbt:_'
-    - 'a:b:/nbt.:_'
-    - 'a:b:/blockshub:_'
     - 'a:b:/stopfire:_'
     - 'a:b:/allowfire'
     - 'a:b:/stoplag:_'
-    - 'a:b:/worldguard:_'
     - 'a:b:/slay:_'
     - 'a:b:/save-all:_'
     - 'a:b:/libsdisguises:_'
     - 'a:b:/particle:Due to security reasons, the use of /particle has been disabled.'
-    - 'a:b:/rainbowclear:_'
-    - 'a:b:/rainbowspeed:_'
     - 'a:b:/kick:_'
     - 'a:b:/difficulty:_'
     - 'a:b:/socialspy:_'
-    - 'a:b:/sproxy:_'
-    - 'a:b:/replaceitem:_'
     - 'a:b:/kill:_'
-    - 'a:b:/reaction:_'
     - 'a:b:/setworldspawn:_'
     - 'a:b:/scoreboard:_'
     - 'a:b:/setspawn:_'
-    - 'a:b:/forestgen:_'
-    - 'a:b:/setidletimeout:_'
-    - 'a:b:/lrbuild:_'
-    - 'a:b:/size:_'
-    - 'a:b:/break:_'
     - 'a:b:/disentity:_'
     - 'a:b:/title:_'
     - 'a:b:/weather:_'
-    - 'a:b:/tpall:_'
-    - 'a:b:/etpall:_'
     - 'a:b:/setblock:_'
-    - 'a:b:/togglejail:_'
-    - 'a:b:/range:_'
-    - 'a:b:/stop:_'
-    - 'a:b:/restart:_'
     - 'a:b:/tpo:_'
     - 'a:b:/tpohere:_'
     - 'a:b:/tphere:_'
-    - 'a:b:/rfchairs:_'
-    - 'a:b:/ppo:_'
-    - 'a:b:/vulnerabilitypatcher:_'
     - 'a:b:/crackshot config:_'
-    - 'a:b:/marry reload:_'
-    - 'a:b:/bh:_'
-    - 'a:b:/tpaall:_'
-    - 'a:b:/paper heap:_'
     - 'a:u:/burn:_'
     - 'a:b:/summon:_'
-    - 'a:b:/discord:_'
     - 'a:b:/bossbar:_'
     - 'a:b:/team:_'
     - 'a:b:/spawner:_'
-    - 's:b:/istack:_'
     - 'a:b:/getloc:_'
     - 'a:b:/holo:_'
     - 'a:b:/hd:_'
     - 'a:b:/hologram:_'
     - 'a:b:/holograms:_'
-    - 's:b:/awe toggle:_'
-    - 's:b:/tellraw:_'
-    - 's:b://awe toggle:_'
+    - 'a:b:/tellraw:_'
     - 'a:b:/openinv:_'
     - 'a:b:/oi:_'
     - 'a:b:/open:_'
@@ -416,11 +375,6 @@ blocked_commands:
     - 'a:b:/fawe:_'
     - 'a:b:/wea:_'
     - 'a:b:/ps:_'
-    - 'n:b:/wra:_'
-    - 's:b:/viaver:_'
-    - 's:b:/viaversion:_'
-    - 's:b:/spark:_'
-    - 's:b://g:_'
 
   # Commands that cannot be used by muted players
   muted:
@@ -438,6 +392,8 @@ blocked_commands:
     - doom
     - slconfig
     - smite
+    - nickfilter
+    - nf
 
 # Words that cannot be used in tags
 forbidden_words:
@@ -450,8 +406,6 @@ forbidden_words:
   - staff
   - mod
   - sra
-  - tca
-  - sta
   - sa
 
 # Automatically wipe dropped objects
@@ -485,7 +439,7 @@ tossmob_enabled: false
 # Moblimiter
 moblimiter:
   enabled: true
-  max: 50
+  max: 100
   disable:
     dragon: true
     ghast: true
@@ -533,7 +487,7 @@ announcer:
     - 'Hacked clients are allowed!'
     - 'Interested in becoming admin? Do &6/admininfo &b for more information!'
     - 'You may view all online admins via &6/list -a'
-    - 'maniaplay / Luna / Lily is the owner of IPTFreedom.'
+    - '${OWNERS} is the owner of ${SERVER_NAME}.'
     - 'Server lagging? Check the lag via &6/tps'
     - 'Player vs player while in creative or god mode is forbidden!'
     - 'Spawn killing is forbidden!'
@@ -548,7 +502,7 @@ announcer:
 
 # What to display in the admininfo command.
 admininfo:
-  - '&bHow to apply for an admin position on the IPTFreedom Server:'
+  - '&bHow to apply for an admin position on the ${SERVER_NAME} Server:'
   - ' &6- Ask for admin in game'
 
 # What to display in the vote command.
@@ -565,7 +519,7 @@ votinginfo:
 
 # What to display in the Master Builder info command.
 masterbuilderinfo:
-  - '&bHow to apply for Master Builder on the IPTFreedom Server:'
+  - '&bHow to apply for Master Builder on the ${SERVER_NAME} Server:'
   - ' &6- Ask for Master Builder in game'
 #  - ' &2- Screenshot some of your previous builds (be ready to prove that the builds are yours)'
 #  - ' &6- Copy the template and create a thread on our forums'
