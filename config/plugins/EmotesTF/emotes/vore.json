@@ -1,0 +1,21 @@
+{
+    "name": "Vore",
+    "command": "vore",
+    "description": "Vores someone",
+    "usage": "/vore [player]",
+    "author": "Mafrans",
+
+    "lines": {
+        "USER": [
+            "&c%user%&b just vored themselves!"
+        ],
+        "USER,ARGUMENT_0": [
+            "&c%user%&b just vored &c%target%&b!"
+        ]
+    },
+
+    "variables": {
+        "USER": "user",
+        "ARGUMENT_0": "target"
+    }
+}
