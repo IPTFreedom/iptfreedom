@@ -3,7 +3,7 @@ mc_version = "1.19.4"
 
 [jar]
 type = "url"
-url = "https://ci.plex.us.org/job/Scissors/job/1.19.4/50/artifact/build/libs/scissors-1.19.4-50.jar"
+url = "https://ci.plex.us.org/job/Scissors/job/1.19.4/51/artifact/build/libs/scissors-1.19.4-51.jar"
 
 [variables]
 SERVER_ADDRESS = "ipt.esixtwo.one"
