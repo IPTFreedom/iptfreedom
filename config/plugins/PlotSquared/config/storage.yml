@@ -1,0 +1,21 @@
+prefix: ''
+
+# SQLite section
+sqlite:
+  # Should SQLite be used?
+  use: false
+  # The file to use
+  db: "storage"
+
+# MySQL section
+mysql:
+  # Should MySQL be used?
+  use: true
+  host: '${DATABASE_HOST}'
+  port: '${DATABASE_PORT}'
+  user: '${DATABASE_USER}'
+  password: '${DATABASE_PASS}'
+  database: '${DATABASE_NAME}'
+  # Set additional properties: https://goo.gl/wngtN8
+  properties: 
+  - "useSSL=false"

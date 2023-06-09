@@ -120,3 +120,27 @@ url = "https://github.com/ViaVersion/ViaVersion/releases/download/4.7.0/ViaVersi
 [[plugins]]
 type = "url"
 url = "https://github.com/ViaVersion/ViaBackwards/releases/download/4.7.0/ViaBackwards-4.7.0.jar"
+
+[[plugins]]
+type = "url"
+url = "https://github.com/Jikoo/OpenInv/releases/download/4.3.0/OpenInv.jar"
+
+[[plugins]]
+type = "url"
+url = "https://github.com/IPTFreedom/PlotSquared/releases/download/6.11.2-IPT/PlotSquared-Bukkit-6.11.2-IPT.jar"
+
+[[plugins]]
+type = "url"
+url = "https://github.com/Gecolay/GSit/releases/download/1.4.5/GSit-1.4.5.jar"
+
+[[plugins]]
+type = "url"
+url = "https://ci.codemc.io/job/filoghost/job/HolographicDisplays/lastSuccessfulBuild/artifact/HolographicDisplays-3.0.3-SNAPSHOT.jar"
+
+[[plugins]]
+type = "url"
+url = "https://github.com/kikelkik/LiftReloaded/releases/download/2.4.2/lift-reloaded-2.4.2.jar"
+
+[[plugins]]
+type = "url"
+url = "https://github.com/aromaa/WorldGuardExtraFlags/releases/download/v4.2.1/WorldGuardExtraFlags.jar"
