@@ -1,2 +1,2 @@
-address: ''
+address: '0.0.0.0'
 port: ${TELNET_PORT}
