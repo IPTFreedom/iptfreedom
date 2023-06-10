@@ -208,12 +208,12 @@ allow:
   minecarts: true
   clearonjoin: false
   tpronjoin: false
-  structureblocks: false
-  jigsaws: false
+  masterblocks: false
+  books: true
   grindstones: true
   jukeboxes: true
   spawners: true
-  beehives: false
+  beehives: true
   respawnanchors: false
   auto_tp: false
   auto_clear: false
@@ -531,9 +531,6 @@ first_join_info:
     - "&6Welcome to ${SERVER_NAME} -- the original Free-OP server!"
     - "&eThe server's name means we have no rules. Do &6/rules &eto double check."
     - "&aNeed help getting started? Do &2/help &afor a list of commands!"
-
-# Famous players - cannot be banned by username
-famous_players: []
 
 # Pet Protect - Prevent tamed pets from being killed.
 petprotect:
