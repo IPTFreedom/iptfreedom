@@ -57,7 +57,7 @@ Marriage:
   # Options: true, false, auto (auto will copy the RequirePriest value)
   DivorceRequiresPriest: auto
   # Max numbers of partners that a player can have. Values < 1 disable the limit.
-  MaxPartners: 1
+  MaxPartners: 0
   # This setting disables priests
   DisablePriests: true
   Surnames:
