@@ -44,7 +44,7 @@ nogui = true
 
 [[plugins]]
 type = "url"
-url = "https://github.com/IPTFreedom/TotalFreedomMod/releases/download/2022.06.05-IPT/TotalFreedomMod-2022.06.5-IPT.jar"
+url = "https://github.com/IPTFreedom/TotalFreedomMod/releases/download/2022.06.06-IPT/TotalFreedomMod-2022.06.6-IPT.jar"
 
 [[plugins]]
 type = "url"
