@@ -193,7 +193,7 @@ social_links:
 allow:
   fire_place: true
   fire_spread: false
-  fluid_spread: false
+  fluid_spread: true
   lava_place: true
   lava_damage: true
   water_place: true
@@ -201,7 +201,7 @@ allow:
   explosions: false
   redstone: true
   fireworks: true
-  frostwalker: false
+  frostwalker: true
   unsafe_enchantments: true
   bells: true
   armorstands: true
@@ -214,7 +214,7 @@ allow:
   jukeboxes: true
   spawners: true
   beehives: true
-  respawnanchors: false
+  respawnanchors: true
   auto_tp: false
   auto_clear: false
   gravity: false
@@ -393,11 +393,11 @@ forbidden_words:
   - sa
 
 # Automatically wipe dropped objects
-auto_wipe: true
+auto_wipe: false
 
 # Nuking prevention
 nukemonitor:
-  enabled: true
+  enabled: false
   count_break: 100
   count_place: 40
   range: 10.0
