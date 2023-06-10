@@ -316,6 +316,7 @@ blocked_commands:
     - 'n:b:/spark:_'
     - 'n:b://g:_'
     - 'n:b:/damage:_'
+    - 'n:b:/fawe:_'
 
     # Admin commands
     - 'a:b:/lightning:_'
@@ -371,7 +372,6 @@ blocked_commands:
     - 'a:b:/anycontainer:_'
     - 'a:b:/anychest:_'
     - 'a:b:/sc:_'
-    - 'a:b:/fawe:_'
     - 'a:b:/wea:_'
     - 'a:b:/ps:_'
 
