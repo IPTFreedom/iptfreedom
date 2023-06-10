@@ -315,6 +315,7 @@ blocked_commands:
     - 'n:b:/viaversion:_'
     - 'n:b:/spark:_'
     - 'n:b://g:_'
+    - 'n:b:/damage:_'
 
     # Admin commands
     - 'a:b:/lightning:_'
