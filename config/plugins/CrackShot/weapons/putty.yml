@@ -1,0 +1,22 @@
+Putty:
+    Item_Information:
+        Item_Name: "&ePutty"
+        Item_Type: 404
+        Item_Lore: "&eRemote explosives.|&eRight click to throw.|&eLeft click to detonate."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+    Explosive_Devices:
+        Enable: true
+        Device_Type: itembomb
+        Device_Info: 2,10,159,159~14
+        Sounds_Deploy: SHOOT_ARROW-1-0-0
+        Sounds_Alert_Placer: CLICK-1-1-0
+        Sounds_Trigger: SHEEP_SHEAR-1-2-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Explosion_Delay: 16
+        Sounds_Explode: ZOMBIE_WOOD-2-0-0

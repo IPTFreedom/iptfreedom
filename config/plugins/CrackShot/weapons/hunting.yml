@@ -1,0 +1,53 @@
+Hunting:
+    Item_Information:
+        Item_Name: "&eHunting Rifle"
+        Item_Type: 417
+        Item_Lore: "&eBolt-action rifle with high accuracy.|&eEquipped with a night vision scope.|&eDeals double damage on headshots."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 1000
+        Projectile_Damage: 12
+        Sounds_Shoot: BLAZE_HIT-1-1-0,EXPLODE-1-2-0
+    Custom_Death_Message:
+        Normal: "&e<victim> was sniped by <shooter>'s Hunting Rifle!"
+    Reload:
+        Enable: true
+        Starting_Amount: 0
+        Reload_Amount: 5
+        Reload_Bullets_Individually: true
+        Reload_Duration: 10
+        Sounds_Reloading: NOTE_STICKS-1-1-0
+    Firearm_Action:
+        Type: bolt
+        Open_Duration: 8
+        Close_Duration: 7
+        Close_Shoot_Delay: 6
+        Sound_Open: NOTE_STICKS-1-0-0,PISTON_RETRACT-1-2-2
+        Sound_Close: PISTON_EXTEND-1-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 12
+        Sounds_Shooter: NOTE_PLING-1-2-0
+        Sounds_Victim: VILLAGER_DEATH-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 3
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-1
+        Particle_Terrain: true
+    Fireworks:
+        Enable: true
+        Firework_Headshot: STAR-TRUE-TRUE-250-0-0
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Sounds_Toggle_Zoom: NOTE_STICKS-1-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0

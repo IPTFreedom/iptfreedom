@@ -1,0 +1,49 @@
+Carbine:
+    Item_Information:
+        Item_Name: "&eCarbine"
+        Item_Type: 417
+        Item_Lore: "&eDeals crits with a 10% chance.|&eSwitch to the grenade launcher|&ewith right click. Fired grenades|&earm themselves in 0.25 seconds."
+        Attachments:
+            Type: main
+            Info: "M320"
+            Toggle_Delay: 5
+            Sounds_Toggle: NOTE_STICKS-1-2-0
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 3
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 4
+        Bullet_Spread: 0.5
+        Sounds_Shoot: BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.4
+    Reload:
+        Enable: true
+        Reload_Amount: 8
+        Reload_Duration: 30
+        Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-14,DOOR_OPEN-1-2-16,FIRE_IGNITE-1-1-26,HURT_FLESH-1-0-27,DOOR_CLOSE-1-2-28
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 8
+        Sound_Close: CLICK-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable: true
+        Particle_Impact_Anything: BLOCK_BREAK-80
+        Particle_Critical: BLOCK_BREAK-55
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 2
+        Chance: 10
+        Sounds_Shooter: ORB_PICKUP-1-2-0

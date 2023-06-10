@@ -1,0 +1,27 @@
+Toaster:
+    Item_Information:
+        Item_Name: "&eToaster"
+        Item_Type: 343
+        Item_Lore: "&eAnti-personnel mine.|&eTriggers a fiery explosion when:|&e- walked into by mobs or players|&e- struck with fists or items|&e- shot by projectiles"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+    Explosive_Devices:
+        Enable: true
+        Device_Type: landmine
+        Device_Info: 46,MINECART
+        Sounds_Deploy: ORB_PICKUP-2-2-0
+        Message_Trigger_Placer: "&e<victim> has triggered your mine!"
+        Message_Trigger_Victim: "&eYou have triggered <shooter>'s mine!"
+        Sounds_Trigger: ITEM_BREAK-2-1-0,ZOMBIE_UNFECT-2-2-0
+    Explosions:
+        Enable: true
+        Ignite_Victims: 120
+        Explosion_No_Grief: true
+        Explosion_Radius: 4
+        Explosion_Delay: 16
+        Sounds_Explode: FIRE-2-0-0,ZOMBIE_METAL-2-0-0
+    Extras:
+        One_Time_Use: true

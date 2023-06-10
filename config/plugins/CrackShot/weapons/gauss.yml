@@ -1,0 +1,35 @@
+Gauss:
+    Item_Information:
+        Item_Name: "&eGauss Shotgun"
+        Item_Type: 417
+        Item_Lore: "&eAdvanced pump-action shotgun.|&eFires metal slugs that penetrate|&eall targets within 40 blocks.|&eDeals 200% damage to Zombies."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Subtype: 40-1-NONE-0
+        Projectile_Damage: 12
+        Sounds_Shoot: WITHER_SHOOT-1-2-0,EXPLODE-1-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 8
+        Reload_Bullets_Individually: true
+        Reload_Duration: 10
+        Sounds_Reloading: IRONGOLEM_THROW-1-2-0
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 12
+        Close_Duration: 3
+        Sound_Open: PISTON_EXTEND-1-2-0
+        Sound_Close: PISTON_EXTEND-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Super_Effective: ZOMBIE-2
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-57
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
