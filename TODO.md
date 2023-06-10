@@ -2,8 +2,5 @@
 - Add genders to marriage plugin
 
 # Plugins
-- LibsDisguises
 - Plan
-- ProtocolLib
-- spark
 - Votifier

@@ -144,3 +144,19 @@ url = "https://github.com/kikelkik/LiftReloaded/releases/download/2.4.2/lift-rel
 [[plugins]]
 type = "url"
 url = "https://github.com/aromaa/WorldGuardExtraFlags/releases/download/v4.2.1/WorldGuardExtraFlags.jar"
+
+[[plugins]]
+type = "url"
+url = "https://github.com/libraryaddict/LibsDisguises/releases/download/v10.0.35/LibsDisguises-10.0.35-Github.jar"
+
+[[plugins]]
+type = "url"
+url = "https://github.com/ayunami2000/LiberalDisguises/releases/download/v1.0.0/liberaldisguises-1.0.0.jar"
+
+[[plugins]]
+type = "url"
+url = "https://github.com/dmulloy2/ProtocolLib/releases/download/5.0.0/ProtocolLib.jar"
+
+[[plugins]]
+type = "url"
+url = "https://ci.lucko.me/job/spark/381/artifact/spark-bukkit/build/libs/spark-1.10.41-bukkit.jar"
