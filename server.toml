@@ -65,7 +65,7 @@ version = "usc9dcSx"
 
 [[plugins]]
 type = "url"
-url = "https://github.com/IPTFreedom/BukkitTelnet/releases/download/4.9-IPT/BukkitTelnet.jar"
+url = "https://github.com/IPTFreedom/BukkitTelnet/releases/download/4.9.1-IPT/bukkittelnet-4.9.1-IPT.jar"
 
 [[plugins]]
 type = "url"
