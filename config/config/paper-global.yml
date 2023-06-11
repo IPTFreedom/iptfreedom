@@ -116,7 +116,7 @@ timings:
   server-name: Unknown Server
   server-name-privacy: false
   url: https://timings.aikar.co/
-  verbose: true
+  verbose: false
 unsupported-settings:
   allow-grindstone-overstacking: false
   allow-headless-pistons: false

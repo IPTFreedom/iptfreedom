@@ -20,9 +20,6 @@ server:
   # MOTD Modification
   motds:
     ban: '&cYou are banned.'
-    adminmode: '&cServer is closed.'
-    lockdown: '&cServer is in lock-down.'
-    whitelist: '&cWhitelist enabled.'
     full: '&cServer is full.'
 
   # Shown on join as a title
@@ -253,7 +250,6 @@ blocked_commands:
   #
   global:
     # Disabled commands
-    - 'n:b:/essentials:_'
     - 'n:b:/time:Server-side time changing is disabled. Please use /ptime to set your own personal time.'
     - 'n:b:/debug:_'
     - 'n:b:/stop:_'
@@ -302,6 +298,7 @@ blocked_commands:
     - 'n:b:/damage:_'
     - 'n:b:/fawe:_'
     - 'n:b:/co purge:_'
+    - 'n:b:/timings:_'
     - 'n:b:/jfr:_'
 
     # Admin commands
