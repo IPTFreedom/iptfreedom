@@ -44,7 +44,7 @@ nogui = true
 
 [[plugins]]
 type = "url"
-url = "https://github.com/IPTFreedom/TotalFreedomMod/releases/download/2022.06.07-IPT/TotalFreedomMod-2022.06.07-IPT.jar"
+url = "https://github.com/IPTFreedom/TotalFreedomMod/releases/download/2022.06.08-IPT/TotalFreedomMod-2022.06.08-IPT.jar"
 
 [[plugins]]
 type = "url"
@@ -56,7 +56,7 @@ url = "https://ci.enginehub.org/repository/download/bt11/22021:id/worldguard-buk
 
 [[plugins]]
 type = "url"
-url = "https://ci.plex.us.org/job/FastAsynchronousIncompetence/27/artifact/worldedit-bukkit/build/libs/FastAsyncWorldEdit-Bukkit-2.6.2-SNAPSHOT-27.jar"
+url = "https://ci.plex.us.org/job/FastAsynchronousIncompetence/28/artifact/worldedit-bukkit/build/libs/FastAsyncWorldEdit-Bukkit-2.6.3-SNAPSHOT-28.jar"
 
 [[plugins]]
 type = "modrinth"
@@ -65,7 +65,7 @@ version = "usc9dcSx"
 
 [[plugins]]
 type = "url"
-url = "https://github.com/IPTFreedom/BukkitTelnet/releases/download/4.9.1-IPT/bukkittelnet-4.9.1-IPT.jar"
+url = "https://github.com/IPTFreedom/BukkitTelnet/releases/download/4.9.2-IPT/bukkittelnet-4.9.2-IPT.jar"
 
 [[plugins]]
 type = "url"
@@ -102,7 +102,7 @@ url = "https://github.com/IPTFreedom/MarriageMaster/releases/download/2.7.0.2-IP
 
 [[plugins]]
 type = "url"
-url = "https://ci.pcgamingfreaks.at/job/PluginLib/lastSuccessfulBuild/artifact/target/PCGF_PluginLib-1.0.39-SNAPSHOT.jar"
+url = "https://ci.pcgamingfreaks.at/job/PluginLib/726/artifact/target/PCGF_PluginLib-1.0.39-SNAPSHOT.jar"
 
 [[plugins]]
 type = "url"
@@ -123,7 +123,7 @@ url = "https://github.com/ViaVersion/ViaBackwards/releases/download/4.7.0/ViaBac
 
 [[plugins]]
 type = "url"
-url = "https://github.com/Jikoo/OpenInv/releases/download/4.3.0/OpenInv.jar"
+url = "https://github.com/Jikoo/OpenInv/releases/download/4.3.1/OpenInv.jar"
 
 [[plugins]]
 type = "url"
@@ -135,7 +135,7 @@ url = "https://github.com/Gecolay/GSit/releases/download/1.4.5/GSit-1.4.5.jar"
 
 [[plugins]]
 type = "url"
-url = "https://ci.codemc.io/job/filoghost/job/HolographicDisplays/lastSuccessfulBuild/artifact/HolographicDisplays-3.0.3-SNAPSHOT.jar"
+url = "https://ci.codemc.io/job/filoghost/job/HolographicDisplays/257/artifact/HolographicDisplays-3.0.3-SNAPSHOT.jar"
 
 [[plugins]]
 type = "url"
