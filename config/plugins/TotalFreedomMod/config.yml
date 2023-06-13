@@ -347,7 +347,6 @@ blocked_commands:
     - 'a:b:/openender:_'
     - 'a:b:/oe:_'
     - 'a:b:/searchinv:_'
-    - 'a:b:/si:_'
     - 'a:b:/searchender:_'
     - 'a:b:/se:_'
     - 'a:b:/searchenchant:_'
