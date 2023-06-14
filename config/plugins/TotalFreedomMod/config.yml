@@ -190,7 +190,7 @@ social_links:
 allow:
   fire_place: true
   fire_spread: false
-  fluid_spread: true
+  fluid_spread: false
   lava_place: true
   lava_damage: true
   water_place: true

@@ -1,7 +1,2 @@
 Database:
-  type: "mysql"
-  host: '${DATABASE_HOST}'
-  port: '${DATABASE_PORT}'
-  user: '${DATABASE_USER}'
-  password: '${DATABASE_PASS}'
-  database: '${DATABASE_NAME}'
+  type: "sqlite" # Don't care about the data here so it's stored in SQLite
