@@ -41,7 +41,7 @@ aikars_flags = true
 proxy_flags = false
 eula_args = true
 nogui = true
-memory = "4G"
+memory = "6500M"
 
 [[plugins]]
 type = "url"
