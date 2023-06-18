@@ -1,9 +1,9 @@
 name = "IPTFreedom"
-mc_version = "1.19.4"
+mc_version = "1.20.1"
 
 [jar]
 type = "url"
-url = "https://ci.plex.us.org/job/Scissors/job/1.19.4/53/artifact/build/libs/scissors-1.19.4-53.jar"
+url = "https://ci.plex.us.org/job/Scissors/job/1.20.1/10/artifact/build/libs/scissors-1.20.1-10.jar"
 
 [variables]
 SERVER_ADDRESS = "ipt.esixtwo.one"
@@ -37,8 +37,8 @@ DISCORD_ROLE_ID_EXECUTIVE = ""
 DISCORD_ROLE_ID_SERVER_OWNER = ""
 
 [launcher]
+jvm_args = "-XX:OnOutOfMemoryError='kill -2 %p' -Dcom.github.iptfreedom.fastasynchronousincompetence.allowv7=true"
 aikars_flags = true
-proxy_flags = false
 eula_args = true
 nogui = true
 memory = "6500M"
@@ -53,11 +53,11 @@ url = "https://github.com/IPTFreedom/Minecraft-JDA/releases/download/5.0.0-beta.
 
 [[plugins]]
 type = "url"
-url = "https://ci.enginehub.org/repository/download/bt11/22021:id/worldguard-bukkit-7.0.9-SNAPSHOT-dist.jar?branch=version/7.0.x&guest=1"
+url = "https://ci.enginehub.org/repository/download/bt11/22175:id/worldguard-bukkit-7.0.9-SNAPSHOT-dist.jar?branch=version/7.0.x&guest=1"
 
 [[plugins]]
 type = "url"
-url = "https://ci.plex.us.org/job/FastAsynchronousIncompetence/28/artifact/worldedit-bukkit/build/libs/FastAsyncWorldEdit-Bukkit-2.6.3-SNAPSHOT-28.jar"
+url = "https://ci.plex.us.org/job/FastAsynchronousIncompetence/33/artifact/worldedit-bukkit/build/libs/FastAsyncWorldEdit-Bukkit-2.6.4-SNAPSHOT-33.jar"
 
 [[plugins]]
 type = "modrinth"
@@ -66,7 +66,7 @@ version = "usc9dcSx"
 
 [[plugins]]
 type = "url"
-url = "https://github.com/IPTFreedom/BukkitTelnet/releases/download/4.9.2-IPT/bukkittelnet-4.9.2-IPT.jar"
+url = "https://github.com/IPTFreedom/BukkitTelnet/releases/download/4.9.3-IPT/bukkittelnet-4.9.3-IPT.jar"
 
 [[plugins]]
 type = "url"
@@ -90,7 +90,7 @@ url = "https://github.com/IPTFreedom/TF-EssentialsX/releases/download/2.20.1/Ess
 
 [[plugins]]
 type = "url"
-url = "https://github.com/IPTFreedom/EmotesTF/releases/download/1.0/EmotesTF.jar"
+url = "https://github.com/IPTFreedom/EmotesTF/releases/download/1.1/emotestf-1.1.jar"
 
 # TODO: Decompile this one and clean up the code & make a release
 [[plugins]]
@@ -103,11 +103,11 @@ url = "https://github.com/IPTFreedom/MarriageMaster/releases/download/2.7.0.2-IP
 
 [[plugins]]
 type = "url"
-url = "https://ci.pcgamingfreaks.at/job/PluginLib/726/artifact/target/PCGF_PluginLib-1.0.39-SNAPSHOT.jar"
+url = "https://ci.pcgamingfreaks.at/job/PluginLib/732/artifact/target/PCGF_PluginLib-1.0.39-SNAPSHOT.jar"
 
 [[plugins]]
 type = "url"
-url = "https://github.com/Focusvity/ItemizerX/releases/download/1.8/ItemizerX.jar"
+url = "https://hangarcdn.papermc.io/plugins/Telesphoreo/ItemizerX/versions/2.0/PAPER/ItemizerX.jar"
 
 [[plugins]]
 type = "modrinth"
@@ -128,7 +128,7 @@ url = "https://github.com/Jikoo/OpenInv/releases/download/4.3.1/OpenInv.jar"
 
 [[plugins]]
 type = "url"
-url = "https://github.com/IPTFreedom/PlotSquared/releases/download/6.11.2-IPT/PlotSquared-Bukkit-6.11.2-IPT.jar"
+url = "https://github.com/IPTFreedom/PlotSquared/releases/download/7.0.0-beta.1-IPT/plotsquared-bukkit-7.0.0-beta.1-IPT.jar"
 
 [[plugins]]
 type = "url"
@@ -136,11 +136,11 @@ url = "https://github.com/Gecolay/GSit/releases/download/1.4.5/GSit-1.4.5.jar"
 
 [[plugins]]
 type = "url"
-url = "https://ci.codemc.io/job/filoghost/job/HolographicDisplays/257/artifact/HolographicDisplays-3.0.3-SNAPSHOT.jar"
+url = "https://ci.codemc.io/job/filoghost/job/HolographicDisplays/258/artifact/HolographicDisplays-3.0.3.jar"
 
 [[plugins]]
 type = "url"
-url = "https://github.com/kikelkik/LiftReloaded/releases/download/2.4.2/lift-reloaded-2.4.2.jar"
+url = "https://github.com/kikelkik/LiftReloaded/releases/download/2.4.3/lift-reloaded-2.4.3.jar"
 
 [[plugins]]
 type = "url"
@@ -148,7 +148,7 @@ url = "https://github.com/aromaa/WorldGuardExtraFlags/releases/download/v4.2.1/W
 
 [[plugins]]
 type = "url"
-url = "https://github.com/libraryaddict/LibsDisguises/releases/download/v10.0.35/LibsDisguises-10.0.35-Github.jar"
+url = "https://ci.md-5.net/job/LibsDisguises/1235/artifact/target/LibsDisguises.jar"
 
 [[plugins]]
 type = "url"
@@ -156,8 +156,8 @@ url = "https://github.com/ayunami2000/LiberalDisguises/releases/download/v1.0.0/
 
 [[plugins]]
 type = "url"
-url = "https://github.com/dmulloy2/ProtocolLib/releases/download/5.0.0/ProtocolLib.jar"
+url = "https://ci.dmulloy2.net/job/ProtocolLib/654/artifact/build/libs/ProtocolLib.jar"
 
 [[plugins]]
 type = "url"
-url = "https://ci.lucko.me/job/spark/381/artifact/spark-bukkit/build/libs/spark-1.10.41-bukkit.jar"
+url = "https://ci.lucko.me/job/spark/382/artifact/spark-bukkit/build/libs/spark-1.10.42-bukkit.jar"

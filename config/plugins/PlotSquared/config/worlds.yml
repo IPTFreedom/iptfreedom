@@ -4,24 +4,25 @@ worlds:
     plot:
       height: 62
       biome: minecraft:forest
+      sign_material: OAK_WALL_SIGN
       size: 100
-      filling: stone:100
+      filling: minecraft:stone
       auto_merge: false
       bedrock: true
       create_signs: true
-      floor: grass_block:100
+      floor: minecraft:grass_block
     wall:
-      filling: stone:100
-      block_claimed: sandstone_slab:100
+      filling: minecraft:stone
+      block_claimed: minecraft:sandstone_slab
       height: 62
-      block: stone_slab:100
+      block: minecraft:stone_slab
       place_top_block: true
     misc_spawn_unowned: false
     road:
-      block: quartz_block:100
+      block: minecraft:quartz_block
+      flags: {}
       height: 62
       width: 7
-      flags: {}
     home:
       nonmembers: side
       default: side
@@ -39,12 +40,12 @@ worlds:
     chat:
       enabled: false
       forced: false
-    limits:
-      max-members: 128
     world:
-      max_height: 256
+      max_gen_height: 319
+      max_height: 320
       gamemode: creative
-      min_height: 1
+      min_gen_height: -64
+      min_height: -63
       border: false
     event:
       spawn:

@@ -5,7 +5,7 @@ RUN mcman build
 
 FROM eclipse-temurin:17-alpine
 RUN addgroup -S server && adduser -S server -G server
-RUN apk add --no-cache su-exec rsync
+RUN apk add --no-cache su-exec rsync libstdc++
 
 COPY --from=builder /server/server/ /server_tomerge
 VOLUME /server

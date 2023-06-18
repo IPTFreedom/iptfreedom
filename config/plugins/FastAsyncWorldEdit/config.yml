@@ -67,10 +67,6 @@ tick-limiter:
   physics-ms: 10
   # Max item spawns per interval (per chunk)
   items: 256
-  # Whether fireworks can load chunks
-  #  - Fireworks usually travel vertically so do not load any chunks
-  #  - Horizontal fireworks can be hacked in to crash a server
-  fireworks-load-chunks: false
 
 # Web/HTTP connection related settings
 web:
