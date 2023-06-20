@@ -37,7 +37,7 @@ DISCORD_ROLE_ID_EXECUTIVE = ""
 DISCORD_ROLE_ID_SERVER_OWNER = ""
 
 [launcher]
-jvm_args = "-XX:OnOutOfMemoryError='kill -2 %p' -Dcom.github.iptfreedom.fastasynchronousincompetence.allowv7=true"
+jvm_args = "-XX:+ExitOnOutOfMemoryError -Dcom.github.iptfreedom.fastasynchronousincompetence.allowv7=true"
 aikars_flags = true
 eula_args = true
 nogui = true
