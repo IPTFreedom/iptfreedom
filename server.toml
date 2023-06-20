@@ -129,7 +129,7 @@ url = "https://github.com/Jikoo/OpenInv/releases/download/4.3.1/OpenInv.jar"
 
 [[plugins]]
 type = "url"
-url = "https://github.com/IPTFreedom/PlotSquared/releases/download/7.0.0-beta.2-IPT/plotsquared-bukkit-7.0.0-beta.2-IPT.jar"
+url = "https://github.com/IPTFreedom/PlotSquared/releases/download/7.0.0-beta.3-IPT/plotsquared-bukkit-7.0.0-beta.3-IPT.jar"
 
 [[plugins]]
 type = "url"
