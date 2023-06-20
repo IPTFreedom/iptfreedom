@@ -3,7 +3,8 @@ mc_version = "1.20.1"
 
 [jar]
 type = "url"
-url = "https://ci.plex.us.org/job/Scissors/job/1.20.1/10/artifact/build/libs/scissors-1.20.1-10.jar"
+# Temporarily using a scissors PR
+url = "https://ci.plex.us.org/job/Scissors/job/fix%252Ftile-entity-packet-spam/1/artifact/build/libs/scissors-fix_tile-entity-packet-spam-1.jar"
 
 [variables]
 SERVER_ADDRESS = "ipt.esixtwo.one"
@@ -128,11 +129,11 @@ url = "https://github.com/Jikoo/OpenInv/releases/download/4.3.1/OpenInv.jar"
 
 [[plugins]]
 type = "url"
-url = "https://github.com/IPTFreedom/PlotSquared/releases/download/7.0.0-beta.1-IPT/plotsquared-bukkit-7.0.0-beta.1-IPT.jar"
+url = "https://github.com/IPTFreedom/PlotSquared/releases/download/7.0.0-beta.2-IPT/plotsquared-bukkit-7.0.0-beta.2-IPT.jar"
 
 [[plugins]]
 type = "url"
-url = "https://github.com/Gecolay/GSit/releases/download/1.4.5/GSit-1.4.5.jar"
+url = "https://github.com/Gecolay/GSit/releases/download/1.4.6/GSit-1.4.6.jar"
 
 [[plugins]]
 type = "url"
