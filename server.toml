@@ -3,8 +3,7 @@ mc_version = "1.20.1"
 
 [jar]
 type = "url"
-# Temporarily using a scissors PR
-url = "https://ci.plex.us.org/job/Scissors/job/fix%252Ftile-entity-packet-spam/1/artifact/build/libs/scissors-fix_tile-entity-packet-spam-1.jar"
+url = "https://ci.plex.us.org/job/Scissors/job/1.20.1/lastSuccessfulBuild/artifact/build/libs/scissors-1.20.1-19.jar"
 
 [variables]
 SERVER_ADDRESS = "ipt.esixtwo.one"
@@ -58,7 +57,7 @@ url = "https://ci.enginehub.org/repository/download/bt11/22205:id/worldguard-buk
 
 [[plugins]]
 type = "url"
-url = "https://ci.plex.us.org/job/FastAsynchronousIncompetence/33/artifact/worldedit-bukkit/build/libs/FastAsyncWorldEdit-Bukkit-2.6.4-SNAPSHOT-33.jar"
+url = "https://ci.plex.us.org/job/FastAsynchronousIncompetence/36/artifact/worldedit-bukkit/build/libs/FastAsyncWorldEdit-Bukkit-2.6.4-SNAPSHOT-36.jar"
 
 [[plugins]]
 type = "modrinth"
