@@ -54,7 +54,7 @@ url = "https://github.com/IPTFreedom/Minecraft-JDA/releases/download/5.0.0-beta.
 
 [[plugins]]
 type = "url"
-url = "https://ci.enginehub.org/repository/download/bt11/22175:id/worldguard-bukkit-7.0.9-SNAPSHOT-dist.jar?branch=version/7.0.x&guest=1"
+url = "https://ci.enginehub.org/repository/download/bt11/22205:id/worldguard-bukkit-7.0.9-SNAPSHOT-dist.jar?branch=version/7.0.x&guest=1"
 
 [[plugins]]
 type = "url"
@@ -104,7 +104,7 @@ url = "https://github.com/IPTFreedom/MarriageMaster/releases/download/2.7.0.2-IP
 
 [[plugins]]
 type = "url"
-url = "https://ci.pcgamingfreaks.at/job/PluginLib/732/artifact/target/PCGF_PluginLib-1.0.39-SNAPSHOT.jar"
+url = "https://ci.pcgamingfreaks.at/job/PluginLib/738/artifact/target/PCGF_PluginLib-1.0.39-SNAPSHOT.jar"
 
 [[plugins]]
 type = "url"
@@ -133,7 +133,7 @@ url = "https://github.com/IPTFreedom/PlotSquared/releases/download/7.0.0-beta.3-
 
 [[plugins]]
 type = "url"
-url = "https://github.com/Gecolay/GSit/releases/download/1.4.6/GSit-1.4.6.jar"
+url = "https://github.com/Gecolay/GSit/releases/download/1.4.7/GSit-1.4.7.jar"
 
 [[plugins]]
 type = "url"
@@ -149,7 +149,7 @@ url = "https://github.com/aromaa/WorldGuardExtraFlags/releases/download/v4.2.1/W
 
 [[plugins]]
 type = "url"
-url = "https://ci.md-5.net/job/LibsDisguises/1235/artifact/target/LibsDisguises.jar"
+url = "https://ci.md-5.net/job/LibsDisguises/1243/artifact/target/LibsDisguises.jar"
 
 [[plugins]]
 type = "url"
@@ -161,4 +161,4 @@ url = "https://ci.dmulloy2.net/job/ProtocolLib/654/artifact/build/libs/ProtocolL
 
 [[plugins]]
 type = "url"
-url = "https://ci.lucko.me/job/spark/382/artifact/spark-bukkit/build/libs/spark-1.10.42-bukkit.jar"
+url = "https://ci.lucko.me/job/spark/384/artifact/spark-bukkit/build/libs/spark-1.10.43-bukkit.jar"
