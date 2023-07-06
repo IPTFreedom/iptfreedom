@@ -40,11 +40,14 @@ DISCORD_ROLE_ID_EXECUTIVE = ""
 DISCORD_ROLE_ID_SERVER_OWNER = ""
 
 [launcher]
-jvm_args = "-XX:+ExitOnOutOfMemoryError -Dcom.github.iptfreedom.fastasynchronousincompetence.allowv7=true"
+jvm_args = "-XX:+ExitOnOutOfMemoryError"
 aikars_flags = true
 eula_args = true
 nogui = true
 memory = "6500M"
+
+[launcher.properties]
+"com.github.iptfreedom.fastasynchronousincompetence.allowv7" = "true"
 
 [[plugins]]
 type = "ghrel"
