@@ -2,8 +2,11 @@ name = "IPTFreedom"
 mc_version = "1.20.1"
 
 [jar]
-type = "url"
-url = "https://ci.plex.us.org/job/Scissors/job/1.20.1/lastSuccessfulBuild/artifact/build/libs/scissors-1.20.1-19.jar"
+type = "jenkins"
+url = "https://ci.plex.us.org"
+job = "Scissors/1.20.1"
+build = "latest"
+artifact = "first"
 
 [variables]
 SERVER_ADDRESS = "ipt.esixtwo.one"
@@ -37,27 +40,39 @@ DISCORD_ROLE_ID_EXECUTIVE = ""
 DISCORD_ROLE_ID_SERVER_OWNER = ""
 
 [launcher]
-jvm_args = "-XX:+ExitOnOutOfMemoryError -Dcom.github.iptfreedom.fastasynchronousincompetence.allowv7=true"
+jvm_args = "-XX:+ExitOnOutOfMemoryError"
 aikars_flags = true
 eula_args = true
 nogui = true
 memory = "6500M"
 
-[[plugins]]
-type = "url"
-url = "https://github.com/IPTFreedom/TotalFreedomMod/releases/download/2022.06.08-IPT/TotalFreedomMod-2022.06.08-IPT.jar"
+[launcher.properties]
+"com.github.iptfreedom.fastasynchronousincompetence.allowv7" = "true"
 
 [[plugins]]
-type = "url"
-url = "https://github.com/IPTFreedom/Minecraft-JDA/releases/download/5.0.0-beta.10-1/Minecraft-JDA-5.0.0-beta.10-1.jar"
+type = "ghrel"
+repo = "IPTFreedom/TotalFreedomMod"
+tag = "2022.06.08-IPT"
+asset = "TotalFreedomMod"
+
+[[plugins]]
+type = "ghrel"
+repo = "IPTFreedom/Minecraft-JDA"
+tag = "5.0.0-beta.10-1"
+asset = "Minecraft-JDA"
 
 [[plugins]]
 type = "url"
 url = "https://ci.enginehub.org/repository/download/bt11/22205:id/worldguard-bukkit-7.0.9-SNAPSHOT-dist.jar?branch=version/7.0.x&guest=1"
+filename = "worldguard-bukkit-7.0.9-SNAPSHOT-dist.jar"
+desc = "WorldGuard"
 
 [[plugins]]
-type = "url"
-url = "https://ci.plex.us.org/job/FastAsynchronousIncompetence/36/artifact/worldedit-bukkit/build/libs/FastAsyncWorldEdit-Bukkit-2.6.4-SNAPSHOT-36.jar"
+type = "jenkins"
+url = "https://ci.plex.us.org"
+job = "FastAsynchronousIncompetence"
+build = "latest"
+artifact = "first"
 
 [[plugins]]
 type = "modrinth"
@@ -65,49 +80,71 @@ id = "buildersutilities"
 version = "usc9dcSx"
 
 [[plugins]]
-type = "url"
-url = "https://github.com/IPTFreedom/BukkitTelnet/releases/download/4.9.3-IPT/bukkittelnet-4.9.3-IPT.jar"
+type = "ghrel"
+repo = "IPTFreedom/BukkitTelnet"
+tag = "4.9.3-IPT"
+asset = "bukkittelnet"
 
 [[plugins]]
-type = "url"
-url = "https://github.com/IPTFreedom/Addendum/releases/download/1.0.0/Addendum-1.0.0.jar"
+type = "ghrel"
+repo = "IPTFreedom/Addendum"
+tag = "1.0.0"
+asset = "Addendum"
 
 [[plugins]]
 type = "spigot"
 id = "carz.56255"
 
 [[plugins]]
-type = "url"
-url = "https://github.com/IPTFreedom/ESP/releases/download/1.1/ESP-1.1.jar"
+type = "ghrel"
+repo = "IPTFreedom/ESP"
+tag = "1.1"
+asset = "ESP"
 
 [[plugins]]
-type = "url"
-url = "https://github.com/IPTFreedom/TF-EssentialsX/releases/download/2.20.1/EssentialsX-2.20.1-dev+395-92d7f94.jar"
+type = "ghrel"
+repo = "IPTFreedom/TF-EssentialsX"
+tag = "2.20.1"
+asset = "EssentialsX"
 
 [[plugins]]
-type = "url"
-url = "https://github.com/IPTFreedom/TF-EssentialsX/releases/download/2.20.1/EssentialsXSpawn-2.20.1-dev+395-92d7f94.jar"
+type = "ghrel"
+repo = "IPTFreedom/TF-EssentialsX"
+tag = "2.20.1"
+asset = "EssentialsXSpawn"
 
 [[plugins]]
-type = "url"
-url = "https://github.com/IPTFreedom/EmotesTF/releases/download/1.1/emotestf-1.1.jar"
+type = "ghrel"
+repo = "IPTFreedom/EmotesTF"
+tag = "1.1"
+asset = "emotestf"
 
 # TODO: Decompile this one and clean up the code & make a release
 [[plugins]]
 type = "url"
 url = "https://cdn.discordapp.com/attachments/1041011669872160769/1116508640480874556/CrackShot-0.99.jar"
+filename = "CrackShot-0.99.jar"
+desc = "TODO: Decompile this one and clean up the code & make a release"
 
 [[plugins]]
-type = "url"
-url = "https://github.com/IPTFreedom/MarriageMaster/releases/download/2.7.0.2-IPT/MarriageMaster-2.7.0.2-IPT.jar"
+type = "ghrel"
+repo = "IPTFreedom/MarriageMaster"
+tag = "2.7.0.2-IPT"
+asset = "MarriageMaster"
 
 [[plugins]]
-type = "url"
-url = "https://ci.pcgamingfreaks.at/job/PluginLib/738/artifact/target/PCGF_PluginLib-1.0.39-SNAPSHOT.jar"
+type = "jenkins"
+url = "https://ci.pcgamingfreaks.at"
+job = "PluginLib"
+build = "latest"
+artifact = "first"
 
+# TODO(mcman): change when hangar support
 [[plugins]]
 type = "url"
 url = "https://hangarcdn.papermc.io/plugins/Telesphoreo/ItemizerX/versions/2.0/PAPER/ItemizerX.jar"
+filename = "ItemizerX.jar"
+desc = "TODO(mcman): change when hangar support"
 
 [[plugins]]
 type = "modrinth"
@@ -115,49 +152,84 @@ id = "coreprotect"
 version = "mvLpRWww"
 
 [[plugins]]
-type = "url"
-url = "https://github.com/ViaVersion/ViaVersion/releases/download/4.7.0/ViaVersion-4.7.0.jar"
+type = "ghrel"
+repo = "ViaVersion/ViaVersion"
+tag = "4.7.0"
+asset = "ViaVersion"
 
 [[plugins]]
-type = "url"
-url = "https://github.com/ViaVersion/ViaBackwards/releases/download/4.7.0/ViaBackwards-4.7.0.jar"
+type = "ghrel"
+repo = "ViaVersion/ViaBackwards"
+tag = "4.7.0"
+asset = "ViaBackwards"
 
 [[plugins]]
-type = "url"
-url = "https://github.com/Jikoo/OpenInv/releases/download/4.3.1/OpenInv.jar"
+type = "ghrel"
+repo = "Jikoo/OpenInv"
+tag = "4.3.1"
+asset = "OpenInv.jar"
 
 [[plugins]]
-type = "url"
-url = "https://github.com/IPTFreedom/PlotSquared/releases/download/7.0.0-beta.3-IPT/plotsquared-bukkit-7.0.0-beta.3-IPT.jar"
+type = "ghrel"
+repo = "IPTFreedom/PlotSquared"
+tag = "7.0.0-beta.3-IPT"
+asset = "plotsquared-bukkit"
 
 [[plugins]]
-type = "url"
-url = "https://github.com/Gecolay/GSit/releases/download/1.4.7/GSit-1.4.7.jar"
+type = "ghrel"
+repo = "Gecolay/GSit"
+tag = "1.4.7"
+asset = "GSit"
 
 [[plugins]]
-type = "url"
-url = "https://ci.codemc.io/job/filoghost/job/HolographicDisplays/258/artifact/HolographicDisplays-3.0.3.jar"
+type = "jenkins"
+url = "https://ci.codemc.io"
+job = "filoghost/HolographicDisplays"
+build = "latest"
+artifact = "first"
 
 [[plugins]]
-type = "url"
-url = "https://github.com/kikelkik/LiftReloaded/releases/download/2.4.3/lift-reloaded-2.4.3.jar"
+type = "ghrel"
+repo = "kikelkik/LiftReloaded"
+tag = "2.4.3"
+asset = "lift-reloaded"
 
 [[plugins]]
-type = "url"
-url = "https://github.com/aromaa/WorldGuardExtraFlags/releases/download/v4.2.1/WorldGuardExtraFlags.jar"
+type = "ghrel"
+repo = "aromaa/WorldGuardExtraFlags"
+tag = "v4.2.1"
+asset = "WorldGuardExtraFlags.jar"
 
 [[plugins]]
-type = "url"
-url = "https://ci.md-5.net/job/LibsDisguises/1243/artifact/target/LibsDisguises.jar"
+type = "jenkins"
+url = "https://ci.md-5.net"
+job = "LibsDisguises"
+build = "latest"
+artifact = "first"
 
 [[plugins]]
-type = "url"
-url = "https://github.com/ayunami2000/LiberalDisguises/releases/download/v1.0.0/liberaldisguises-1.0.0.jar"
+type = "ghrel"
+repo = "ayunami2000/LiberalDisguises"
+tag = "v1.0.0"
+asset = "liberaldisguises"
 
 [[plugins]]
-type = "url"
-url = "https://ci.dmulloy2.net/job/ProtocolLib/654/artifact/build/libs/ProtocolLib.jar"
+type = "jenkins"
+url = "https://ci.dmulloy2.net"
+job = "ProtocolLib"
+build = "latest"
+artifact = "first"
 
 [[plugins]]
-type = "url"
-url = "https://ci.lucko.me/job/spark/384/artifact/spark-bukkit/build/libs/spark-1.10.43-bukkit.jar"
+type = "jenkins"
+url = "https://ci.lucko.me"
+job = "spark"
+build = "latest"
+artifact = "bukkit"
+
+[markdown]
+files = [
+    "README.md",
+    "PLUGINS.md"
+]
+auto_update = false
